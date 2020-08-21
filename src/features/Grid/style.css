@@ -1,0 +1,19 @@
+.Grid__board {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    width: 430px;
+    height: 430px;
+    background-color: lightgoldenrodyellow;
+    padding: 10px 10px 0;
+}
+
+.Grid__item {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100px;
+    height: 100px;
+    font-size: 30px;
+    font-weight: 600;
+}
